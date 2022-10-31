@@ -10,7 +10,7 @@ const anu = {
                         },
        message: {
                     documentMessage: {
-                    title: 'YT: FANGZ GANZ', 
+                    title: 'YT: 𝗟𝗶𝘀𝗮 𝗠𝗗', 
                     jpegThumbnail: './thumbnail.jpg'
                           }
                         }

@@ -17,13 +17,13 @@ ${htjava} *Title:* ${title}
 📔 *Description:* ${description}
   `.trim(), wm, thumbnail, url, '📣 GO TO YOUTUBE', null, null, [
     ['🎶 Audio', `${usedPrefix}yta ${url} yes`],
-    ['🎥 Video', `${usedPrefix}ytv1 ${url} yes`],
+    ['🎥 Video', `${usedPrefix}ytv2 ${url} yes`],
     ['🔎 Youtube Search', `${usedPrefix}yts ${url}`]
   ], m)
 }
-handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
+handler.help = ['song', 'song'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = /^play2?$/i
+handler.command = /^song2?$/i
 
 handler.exp = 0
 handler.limit = false

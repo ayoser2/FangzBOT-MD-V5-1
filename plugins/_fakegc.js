@@ -14,7 +14,7 @@ let pp = await conn.profilePictureUrl(m.sender, 'image')
 			"groupJid": "6285240750713-1610340626@g.us",
 			"inviteCode": "mememteeeekkeke",
 			"groupName": "P", 
-            "caption": "Fangz BOT Official", 
+            "caption": "𝗟𝗶𝘀𝗮 𝗕𝗼𝘁 𝗠𝗗", 
             'jpegThumbnail': await ( await fetch(pp)).buffer()
 		}
 	}
